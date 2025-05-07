@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme15.css">
+
+    <style>
+        .form-content input {
+            padding:
+            9px 20px;
+            border:
+            1px solid #ccc;
+            background-color: #F7F7F7;
+            color: #000;
+            border-radius:
+            6px;
+        }
+        .form-select{
+            border:1px solid #ccc;
+        }
+        li {
+            color: #fff;
+            text-align: left;
+        }
+        .img-holder .bg {
+            opacity: 1;
+            background-image: none;
+            background: #011945;
+        }
+        .form-content .form-button .ibtn {
+            background-color: #057b75;
+        }
+        .form-content .form-button .ibtn:hover {
+            background-color: #057b75;
+        }
+        .form-content .page-links a.active::after {
+            background-color: #057b75;
+        }
+        .form-content .page-links a:hover::after, .form-content .page-links a:focus::after {
+            background-color: #057b75;
+        }
+        .form-content input:hover, .form-content input:focus, .form-content .dropdown-toggle.btn-default:hover, .form-content .dropdown-toggle.btn-default:focus {
+            border:
+            1px solid #057b75;
+        }
+        .form-content .page-links a {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body style="font-size: 18px;">
+    <div class="form-body">
+        <div class="website-logo">
+            <a href="index">
+                <div>
+                    <img style="width:150px" src="images/logo.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="iofrm-layout">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <h3>Viewers Corner</h3>
+                    <p>The Viewers' Corner is a private community space offering fans exclusive access to Donu's world through engaging content, meaningful interactions, and special experiences.</p>
+                    <ul>
+                        <li>Exclusive Conversations with Donu</li>
+                        <li>Fans Forum</li>
+                        <li>Exclusive Book Club</li>
+                        <li>Interactive Polls & Community Voice</li>
+                        <li>Livestreamed Events</li>
+                        <li>Behind-the-Scenes Content</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <div class="page-links">
+                            <a href="login.html" class="active">Login</a><a href="index.html">Register</a>
+                        </div>
+                        <form>
+                            <input class="form-control" type="text" name="username" placeholder="E-mail Address" required>
+                            <input class="form-control" type="password" name="password" placeholder="Password" required>
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn w-100">Login</button> <a href="#">Forgot password?</a>
+                            </div>
+                        </form>
+                        <div class="other-links">
+                            <span>Or login with</span><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-google"></i></a></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

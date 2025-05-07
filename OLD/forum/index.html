@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-style.css">
+    <link rel="stylesheet" type="text/css" href="css/iofrm-theme15.css">
+
+    <style>
+        .form-content input {
+            padding:
+            9px 20px;
+            border:
+            1px solid #ccc;
+            background-color: #F7F7F7;
+            color: #000;
+            border-radius:
+            6px;
+        }
+        .form-select{
+            border:1px solid #ccc;
+        }
+        li {
+            color: #fff;
+            text-align: left;
+        }
+        .img-holder .bg {
+            opacity: 1;
+            background-image: none;
+            background: #011945;
+        }
+        .form-content .form-button .ibtn {
+            background-color: #057b75;
+        }
+        .form-content .form-button .ibtn:hover {
+            background-color: #057b75;
+        }
+        .form-content .page-links a.active::after {
+            background-color: #057b75;
+        }
+        .form-content .page-links a:hover::after, .form-content .page-links a:focus::after {
+            background-color: #057b75;
+        }
+        .form-content input:hover, .form-content input:focus, .form-content .dropdown-toggle.btn-default:hover, .form-content .dropdown-toggle.btn-default:focus {
+            border:
+            1px solid #057b75;
+        }
+        .form-content .page-links a {
+            font-size: 18px;
+        }
+        
+    </style>
+</head>
+<body style="font-size: 18px;">
+    <div class="form-body">
+        <div class="website-logo">
+            <a href="index">
+                <div>
+                    <img style="width:150px" src="images/logo.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="iofrm-layout">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+                    <h3>Viewers Corner</h3>
+                    <p>The Viewers' Corner is a private community space offering fans exclusive access to Donu's world through engaging content, meaningful interactions, and special experiences.</p>
+                    <ul>
+                        <li>Exclusive Conversations with Donu</li>
+                        <li>Fans Forum</li>
+                        <li>Exclusive Book Club</li>
+                        <li>Interactive Polls & Community Voice</li>
+                        <li>Livestreamed Events</li>
+                        <li>Behind-the-Scenes Content</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <div class="page-links">
+                            <a href="login.html">Login</a><a href="index.html" class="active">Register</a>
+                        </div>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Name/Pseudonym: <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" name="name" required>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>E-mail Address: <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" name="name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Gender: <span class="text-danger">*</span></label>
+                                        <select class="form-select">
+                                            <option>Select</option>
+                                            <option>Male</option>
+                                            <option>Female</option>
+                                            <option>Other</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Age (optional):</label>
+                                        <input class="form-control" type="text" name="name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Nationality: <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" name="name" required>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Country of Residence: <span class="text-danger">*</span></label>
+                                        <select class="form-select">
+                                            <option>Select</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Marital Status: <span class="text-danger">*</span></label>
+                                        <select class="form-select">
+                                            <option value="single">Single</option>
+                                            <option value="married">Married</option>
+                                            <option value="divorced">Divorced</option>
+                                            <option value="widowed">Widowed</option>
+                                            <option value="separated">Separated</option>
+                                            <option value="in_a_relationship">In a Relationship</option>
+                                            <option value="engaged">Engaged</option>
+                                            <option value="civil_union">In a Civil Union</option>
+                                            <option value="domestic_partnership">In a Domestic Partnership</option>
+                                            <option value="prefer_not_to_say">Prefer Not to Say</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Hobby/Favourite leisure activity: <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="text" name="name" required>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Occupation: <span class="text-danger">*</span></label>
+                                        <select class="form-select">
+                                            <option>Select</option>
+                                            <option>Employed</option>
+                                            <option>Self Employed</option>
+                                            <option>Unemployed</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Password: <span class="text-danger">*</span></label>
+                                        <input class="form-control" type="password" name="name" required>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-button">
+                                <button id="submit" type="submit" class="ibtn w-100">Create Account</button>
+                            </div>
+                        </form>
+                        <div class="other-links">
+                            <span>Or register with</span><a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-google"></i></a></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
